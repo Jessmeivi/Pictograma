@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.personales">
+
+    <ImageButton
+        android:id="@+id/eaburrido"
+        android:layout_width="wrap_content"
+        android:layout_height="107dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="49dp"
+        android:layout_marginEnd="11dp"
+        android:layout_toStartOf="@+id/econtento"
+        android:adjustViewBounds="true"
+        android:background="@color/white"
+        android:onClick="playEaburrido"
+        android:padding="10dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/eaburrido" />
+
+    <ImageButton
+        android:id="@+id/econtento"
+        android:layout_width="wrap_content"
+        android:layout_height="102dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="49dp"
+        android:layout_marginEnd="16dp"
+        android:layout_toStartOf="@+id/etriste"
+        android:adjustViewBounds="true"
+        android:background="@color/white"
+        android:onClick="playEcontento"
+        android:padding="10dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/econtento" />
+
+    <ImageButton
+        android:id="@+id/etriste"
+        android:layout_width="wrap_content"
+        android:layout_height="102dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="53dp"
+        android:layout_marginEnd="37dp"
+        android:adjustViewBounds="true"
+        android:background="@color/white"
+        android:onClick="playEtriste"
+        android:padding="10dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/etriste" />
+</RelativeLayout>

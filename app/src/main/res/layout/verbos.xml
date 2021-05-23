@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="horizontal"
+    tools:context=".fragments.verbos">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="horizontal"
+            tools:context=".fragments.verbos">
+
+            <ImageButton
+                android:id="@+id/vbajar"
+                android:layout_width="wrap_content"
+                android:layout_height="107dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="49dp"
+                android:layout_marginEnd="20dp"
+                android:layout_toStartOf="@+id/vsubir"
+                android:adjustViewBounds="true"
+                android:background="@color/white"
+                android:onClick="playVbajar"
+                android:padding="10dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/vbajar" />
+
+            <ImageButton
+                android:id="@+id/vcomprar"
+                android:layout_width="wrap_content"
+                android:layout_height="107dp"
+                android:layout_below="@+id/vbajar"
+                android:layout_marginTop="44dp"
+                android:layout_marginEnd="18dp"
+                android:layout_toStartOf="@+id/vdivertir"
+                android:adjustViewBounds="true"
+                android:background="@color/white"
+                android:onClick="playVcomprar"
+                android:padding="10dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/vcomprar" />
+
+            <ImageButton
+                android:id="@+id/vfalta"
+                android:layout_width="wrap_content"
+                android:layout_height="107dp"
+                android:layout_below="@+id/vcomprar"
+                android:layout_marginTop="44dp"
+                android:layout_marginEnd="14dp"
+                android:layout_toStartOf="@+id/vganar"
+                android:adjustViewBounds="true"
+                android:background="@color/white"
+                android:onClick="playVfalta"
+                android:padding="10dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/vfalta" />
+
+            <ImageButton
+                android:id="@+id/vnomegusta"
+                android:layout_width="wrap_content"
+                android:layout_height="107dp"
+                android:layout_below="@+id/vfalta"
+                android:layout_marginTop="48dp"
+                android:layout_marginEnd="18dp"
+                android:layout_toStartOf="@+id/vmegusta"
+                android:adjustViewBounds="true"
+                android:background="@color/white"
+                android:onClick="playVnomegusta"
+                android:padding="10dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/vnomegusta" />
+
+            <ImageButton
+                android:id="@+id/vganar"
+                android:layout_width="wrap_content"
+                android:layout_height="107dp"
+                android:layout_below="@+id/vdivertir"
+                android:layout_marginTop="44dp"
+                android:layout_marginEnd="18dp"
+                android:layout_toStartOf="@+id/vir"
+                android:adjustViewBounds="true"
+                android:background="@color/white"
+                android:onClick="playVganar"
+                android:padding="10dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/vganar" />
+
+            <ImageButton
+                android:id="@+id/vmegusta"
+                android:layout_width="wrap_content"
+                android:layout_height="107dp"
+                android:layout_below="@+id/vganar"
+                android:layout_marginTop="48dp"
+                android:layout_marginEnd="18dp"
+                android:layout_toStartOf="@+id/vperder"
+                android:adjustViewBounds="true"
+                android:background="@color/white"
+                android:onClick="playVmegusta"
+                android:padding="10dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/vmegusta" />
+
+            <ImageButton
+                android:id="@+id/vperder"
+                android:layout_width="wrap_content"
+                android:layout_height="107dp"
+                android:layout_below="@+id/vir"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="47dp"
+                android:layout_marginEnd="35dp"
+                android:adjustViewBounds="true"
+                android:background="@color/white"
+                android:onClick="playVperder"
+                android:padding="10dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/vperder" />
+
+            <ImageButton
+                android:id="@+id/vir"
+                android:layout_width="wrap_content"
+                android:layout_height="107dp"
+                android:layout_below="@+id/vempatar"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="44dp"
+                android:layout_marginEnd="29dp"
+                android:adjustViewBounds="true"
+                android:background="@color/white"
+                android:onClick="playVir"
+                android:padding="10dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/vir" />
+
+            <ImageButton
+                android:id="@+id/vdivertir"
+                android:layout_width="wrap_content"
+                android:layout_height="107dp"
+                android:layout_below="@+id/vsubir"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="51dp"
+                android:layout_marginEnd="146dp"
+                android:adjustViewBounds="true"
+                android:background="@color/white"
+                android:onClick="playVdivertir"
+                android:padding="10dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/vdivertir" />
+
+            <ImageButton
+                android:id="@+id/vempatar"
+                android:layout_width="wrap_content"
+                android:layout_height="107dp"
+                android:layout_below="@+id/vexpulsar"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="46dp"
+                android:layout_marginEnd="35dp"
+                android:adjustViewBounds="true"
+                android:background="@color/white"
+                android:onClick="playVempatar"
+                android:padding="10dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/vempatar" />
+
+            <ImageButton
+                android:id="@+id/vsubir"
+                android:layout_width="wrap_content"
+                android:layout_height="102dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="49dp"
+                android:layout_marginEnd="16dp"
+                android:layout_toStartOf="@+id/vexpulsar"
+                android:adjustViewBounds="true"
+                android:background="@color/white"
+                android:onClick="playVsubir"
+                android:padding="10dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/vsubir" />
+
+            <ImageButton
+                android:id="@+id/vexpulsar"
+                android:layout_width="wrap_content"
+                android:layout_height="102dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="53dp"
+                android:layout_marginEnd="37dp"
+                android:adjustViewBounds="true"
+                android:background="@color/white"
+                android:onClick="playVexpulsar"
+                android:padding="10dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/vexpulsar" />
+
+        </RelativeLayout>
+
+
+    </ScrollView>
+</RelativeLayout>
+
+
+<!--
+<ImageButton
+                android:id="@+id/vbajar"
+                android:layout_width="wrap_content"
+                android:layout_height="107dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="49dp"
+                android:layout_marginEnd="11dp"
+                android:layout_toStartOf="@+id/vsubir"
+                android:adjustViewBounds="true"
+                android:background="@color/white"
+                android:onClick="playVbajar"
+                android:padding="10dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/vbajar" />
+
+            <ImageButton
+                android:id="@+id/vcomprar"
+                android:layout_width="wrap_content"
+                android:layout_height="107dp"
+                android:layout_below="@+id/vbajar"
+                android:layout_marginTop="44dp"
+                android:layout_marginEnd="18dp"
+                android:layout_toStartOf="@+id/vdivertir"
+                android:adjustViewBounds="true"
+                android:background="@color/white"
+                android:onClick="playVcomprar"
+                android:padding="10dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/vcomprar" />
+
+            <ImageButton
+                android:id="@+id/vfalta"
+                android:layout_width="wrap_content"
+                android:layout_height="107dp"
+                android:layout_below="@+id/vcomprar"
+                android:layout_marginTop="44dp"
+                android:layout_marginEnd="14dp"
+                android:layout_toStartOf="@+id/vganar"
+                android:adjustViewBounds="true"
+                android:background="@color/white"
+                android:onClick="playVfalta"
+                android:padding="10dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/vfalta" />
+
+            <ImageButton
+                android:id="@+id/vnomegusta"
+                android:layout_width="wrap_content"
+                android:layout_height="107dp"
+                android:layout_below="@+id/vfalta"
+                android:layout_marginTop="48dp"
+                android:layout_marginEnd="18dp"
+                android:layout_toStartOf="@+id/vmegusta"
+                android:adjustViewBounds="true"
+                android:background="@color/white"
+                android:onClick="playVnomegusta"
+                android:padding="10dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/vnomegusta" />
+
+            <ImageButton
+                android:id="@+id/vganar"
+                android:layout_width="wrap_content"
+                android:layout_height="107dp"
+                android:layout_below="@+id/vdivertir"
+                android:layout_marginTop="44dp"
+                android:layout_marginEnd="18dp"
+                android:layout_toStartOf="@+id/vir"
+                android:adjustViewBounds="true"
+                android:background="@color/white"
+                android:onClick="playVganar"
+                android:padding="10dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/vganar" />
+
+            <ImageButton
+                android:id="@+id/vmegusta"
+                android:layout_width="wrap_content"
+                android:layout_height="107dp"
+                android:layout_below="@+id/vganar"
+                android:layout_marginTop="48dp"
+                android:layout_marginEnd="18dp"
+                android:layout_toStartOf="@+id/vperder"
+                android:adjustViewBounds="true"
+                android:background="@color/white"
+                android:onClick="playVmegusta"
+                android:padding="10dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/vmegusta" />
+
+            <ImageButton
+                android:id="@+id/vperder"
+                android:layout_width="wrap_content"
+                android:layout_height="107dp"
+                android:layout_below="@+id/vir"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="47dp"
+                android:layout_marginEnd="35dp"
+                android:adjustViewBounds="true"
+                android:background="@color/white"
+                android:onClick="playVperder"
+                android:padding="10dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/vperder" />
+
+            <ImageButton
+                android:id="@+id/vir"
+                android:layout_width="wrap_content"
+                android:layout_height="107dp"
+                android:layout_below="@+id/vempatar"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="44dp"
+                android:layout_marginEnd="29dp"
+                android:adjustViewBounds="true"
+                android:background="@color/white"
+                android:onClick="playVir"
+                android:padding="10dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/vir" />
+
+            <ImageButton
+                android:id="@+id/vdivertir"
+                android:layout_width="wrap_content"
+                android:layout_height="107dp"
+                android:layout_below="@+id/vsubir"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="51dp"
+                android:layout_marginEnd="146dp"
+                android:adjustViewBounds="true"
+                android:background="@color/white"
+                android:onClick="playVdivertir"
+                android:padding="10dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/vdivertir" />
+
+            <ImageButton
+                android:id="@+id/vempatar"
+                android:layout_width="wrap_content"
+                android:layout_height="107dp"
+                android:layout_below="@+id/vexpulsar"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="46dp"
+                android:layout_marginEnd="35dp"
+                android:adjustViewBounds="true"
+                android:background="@color/white"
+                android:onClick="playVempatar"
+                android:padding="10dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/vempatar" />
+
+            <ImageButton
+                android:id="@+id/vsubir"
+                android:layout_width="wrap_content"
+                android:layout_height="102dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="49dp"
+                android:layout_marginEnd="16dp"
+                android:layout_toStartOf="@+id/vexpulsar"
+                android:adjustViewBounds="true"
+                android:background="@color/white"
+                android:onClick="playVsubir"
+                android:padding="10dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/vsubir" />
+
+            <ImageButton
+                android:id="@+id/vexpulsar"
+                android:layout_width="wrap_content"
+                android:layout_height="102dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="53dp"
+                android:layout_marginEnd="37dp"
+                android:adjustViewBounds="true"
+                android:background="@color/white"
+                android:onClick="playVexpulsar"
+                android:padding="10dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/vexpulsar" />
+-->

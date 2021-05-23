@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.personales">
+
+    <ImageButton
+        android:id="@+id/buenosdias"
+        android:layout_width="wrap_content"
+        android:layout_height="107dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="49dp"
+        android:layout_marginEnd="11dp"
+        android:layout_toStartOf="@+id/porfavor"
+        android:adjustViewBounds="true"
+        android:background="@color/white"
+        android:onClick="playBuenosdias"
+        android:padding="10dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/buenosdias" />
+
+    <ImageButton
+        android:id="@+id/genial"
+        android:layout_width="wrap_content"
+        android:layout_height="107dp"
+        android:layout_below="@+id/buenosdias"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="18dp"
+        android:layout_toStartOf="@+id/hola"
+        android:adjustViewBounds="true"
+        android:background="@color/white"
+        android:onClick="playGenial"
+        android:padding="10dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/genial" />
+
+    <ImageButton
+        android:id="@+id/hola"
+        android:layout_width="wrap_content"
+        android:layout_height="107dp"
+        android:layout_below="@+id/porfavor"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="51dp"
+        android:layout_marginEnd="146dp"
+        android:adjustViewBounds="true"
+        android:background="@color/white"
+        android:onClick="playHola"
+        android:padding="10dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/hola" />
+
+    <ImageButton
+        android:id="@+id/perdon"
+        android:layout_width="wrap_content"
+        android:layout_height="107dp"
+        android:layout_below="@+id/seacabo"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="46dp"
+        android:layout_marginEnd="35dp"
+        android:adjustViewBounds="true"
+        android:background="@color/white"
+        android:onClick="playPerdon"
+        android:padding="10dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/perdon" />
+
+    <ImageButton
+        android:id="@+id/porfavor"
+        android:layout_width="wrap_content"
+        android:layout_height="102dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="49dp"
+        android:layout_marginEnd="16dp"
+        android:layout_toStartOf="@+id/seacabo"
+        android:adjustViewBounds="true"
+        android:background="@color/white"
+        android:onClick="playPorfavor"
+        android:padding="10dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/porfavor" />
+
+    <ImageButton
+        android:id="@+id/seacabo"
+        android:layout_width="wrap_content"
+        android:layout_height="102dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="53dp"
+        android:layout_marginEnd="37dp"
+        android:adjustViewBounds="true"
+        android:background="@color/white"
+        android:onClick="playSeacabo"
+        android:padding="10dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/seacabo" />
+</RelativeLayout>

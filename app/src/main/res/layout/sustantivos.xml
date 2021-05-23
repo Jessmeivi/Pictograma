@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.sustantivos">
+
+    <ImageButton
+        android:id="@+id/sbalon"
+        android:layout_width="wrap_content"
+        android:layout_height="107dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="49dp"
+        android:layout_marginEnd="11dp"
+        android:layout_toStartOf="@+id/sentrada"
+        android:adjustViewBounds="true"
+        android:background="@color/white"
+        android:onClick="playSbalon"
+        android:padding="10dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/sbalon" />
+
+    <ImageButton
+        android:id="@+id/scampeon"
+        android:layout_width="wrap_content"
+        android:layout_height="107dp"
+        android:layout_below="@+id/sbalon"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="18dp"
+        android:layout_toStartOf="@+id/scampo"
+        android:adjustViewBounds="true"
+        android:background="@color/white"
+        android:onClick="playScampeon"
+        android:padding="10dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/scampeon" />
+
+    <ImageButton
+        android:id="@+id/sgol"
+        android:layout_width="wrap_content"
+        android:layout_height="107dp"
+        android:layout_below="@+id/scampeon"
+        android:layout_marginTop="42dp"
+        android:layout_marginEnd="24dp"
+        android:layout_toStartOf="@+id/spartido"
+        android:adjustViewBounds="true"
+        android:background="@color/white"
+        android:onClick="playSgol"
+        android:padding="10dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/sgol" />
+
+    <ImageButton
+        android:id="@+id/sporteria"
+        android:layout_width="wrap_content"
+        android:layout_height="107dp"
+        android:layout_below="@+id/sgol"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="112dp"
+        android:layout_toStartOf="@+id/spublico"
+        android:adjustViewBounds="true"
+        android:background="@color/white"
+        android:onClick="playSporteria"
+        android:padding="10dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/sporteria" />
+
+    <ImageButton
+        android:id="@+id/spublico"
+        android:layout_width="wrap_content"
+        android:layout_height="107dp"
+        android:layout_below="@+id/spartido"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="59dp"
+        android:layout_marginEnd="23dp"
+        android:layout_marginBottom="106dp"
+        android:layout_toStartOf="@+id/starjeta"
+        android:adjustViewBounds="true"
+        android:background="@color/white"
+        android:onClick="playSpublico"
+        android:padding="10dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/spublico" />
+
+    <ImageButton
+        android:id="@+id/starjeta"
+        android:layout_width="wrap_content"
+        android:layout_height="107dp"
+        android:layout_below="@+id/spenalty"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="56dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="110dp"
+        android:adjustViewBounds="true"
+        android:background="@color/white"
+        android:onClick="playStarjeta"
+        android:padding="10dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/starjeta" />
+
+    <ImageButton
+        android:id="@+id/spartido"
+        android:layout_width="wrap_content"
+        android:layout_height="107dp"
+        android:layout_below="@+id/scampo"
+        android:layout_marginTop="39dp"
+        android:layout_marginEnd="22dp"
+        android:layout_toStartOf="@+id/spenalty"
+        android:adjustViewBounds="true"
+        android:background="@color/white"
+        android:onClick="playSpartido"
+        android:padding="10dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/spartido" />
+
+    <ImageButton
+        android:id="@+id/spenalty"
+        android:layout_width="wrap_content"
+        android:layout_height="107dp"
+        android:layout_below="@+id/scopa"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="29dp"
+        android:adjustViewBounds="true"
+        android:background="@color/white"
+        android:onClick="playSpenalty"
+        android:padding="10dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/spenalty" />
+
+    <ImageButton
+        android:id="@+id/scampo"
+        android:layout_width="wrap_content"
+        android:layout_height="107dp"
+        android:layout_below="@+id/sentrada"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="51dp"
+        android:layout_marginEnd="146dp"
+        android:adjustViewBounds="true"
+        android:background="@color/white"
+        android:onClick="playScampo"
+        android:padding="10dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/scampo" />
+
+    <ImageButton
+        android:id="@+id/scopa"
+        android:layout_width="wrap_content"
+        android:layout_height="107dp"
+        android:layout_below="@+id/sfutbol"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="46dp"
+        android:layout_marginEnd="35dp"
+        android:adjustViewBounds="true"
+        android:background="@color/white"
+        android:onClick="playScopa"
+        android:padding="10dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/scopa" />
+
+    <ImageButton
+        android:id="@+id/sentrada"
+        android:layout_width="wrap_content"
+        android:layout_height="102dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="49dp"
+        android:layout_marginEnd="16dp"
+        android:layout_toStartOf="@+id/sfutbol"
+        android:adjustViewBounds="true"
+        android:background="@color/white"
+        android:onClick="playSentrada"
+        android:padding="10dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/sentrada" />
+
+    <ImageButton
+        android:id="@+id/sfutbol"
+        android:layout_width="wrap_content"
+        android:layout_height="102dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="53dp"
+        android:layout_marginEnd="37dp"
+        android:adjustViewBounds="true"
+        android:background="@color/white"
+        android:onClick="playSfutbol"
+        android:padding="10dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/sfutbol" />
+</RelativeLayout>

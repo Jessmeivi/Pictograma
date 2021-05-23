@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.personales">
+
+
+    <ImageButton
+        android:id="@+id/pyo"
+        android:layout_width="wrap_content"
+        android:layout_height="107dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="49dp"
+        android:layout_marginEnd="11dp"
+        android:layout_toStartOf="@+id/pportero"
+        android:adjustViewBounds="true"
+        android:background="@color/white"
+        android:onClick="playPyo"
+        android:padding="10dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/pyo" />
+
+    <ImageButton
+        android:id="@+id/pequipo"
+        android:layout_width="wrap_content"
+        android:layout_height="107dp"
+        android:layout_below="@+id/pyo"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="18dp"
+        android:layout_toStartOf="@+id/pentrenador"
+        android:adjustViewBounds="true"
+        android:background="@color/white"
+        android:onClick="playPequipo"
+        android:padding="10dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/pequipo" />
+
+    <ImageButton
+        android:id="@+id/pentrenador"
+        android:layout_width="wrap_content"
+        android:layout_height="107dp"
+        android:layout_below="@+id/pportero"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="51dp"
+        android:layout_marginEnd="146dp"
+        android:adjustViewBounds="true"
+        android:background="@color/white"
+        android:onClick="playPentrenador"
+        android:padding="10dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/pentrenador" />
+
+    <ImageButton
+        android:id="@+id/parbitro"
+        android:layout_width="wrap_content"
+        android:layout_height="107dp"
+        android:layout_below="@+id/pjugador"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="46dp"
+        android:layout_marginEnd="35dp"
+        android:adjustViewBounds="true"
+        android:background="@color/white"
+        android:onClick="playParbitro"
+        android:padding="10dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/parbitro" />
+
+    <ImageButton
+        android:id="@+id/pportero"
+        android:layout_width="wrap_content"
+        android:layout_height="102dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="49dp"
+        android:layout_marginEnd="16dp"
+        android:layout_toStartOf="@+id/pjugador"
+        android:adjustViewBounds="true"
+        android:background="@color/white"
+        android:onClick="playPportero"
+        android:padding="10dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/pportero" />
+
+    <ImageButton
+        android:id="@+id/pjugador"
+        android:layout_width="wrap_content"
+        android:layout_height="102dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="53dp"
+        android:layout_marginEnd="37dp"
+        android:adjustViewBounds="true"
+        android:background="@color/white"
+        android:onClick="playPjugador"
+        android:padding="10dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/pjugador" />
+</RelativeLayout>
